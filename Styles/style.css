@@ -226,22 +226,51 @@ header nav a:hover {
 }
 .seccionPrincipal .section03Projects .container-Projects .DescriptionProjects p {
   font-size: 20px;
+  margin: 40px 0px;
 }
 .seccionPrincipal .section03Projects .container-Projects .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 .seccionPrincipal .section03Projects .container-Projects .projects .muestras {
   margin: auto;
 }
-.seccionPrincipal .section03Projects .container-Projects .projects .muestras img {
+.seccionPrincipal .section03Projects .container-Projects .projects .muestras a {
+  text-decoration: none;
+}
+.seccionPrincipal .section03Projects .container-Projects .projects .muestras a img {
   margin: 5%;
   width: 100%;
+  max-width: 280px;
+  box-shadow: 1px 1px 5px #3C3744;
 }
-.seccionPrincipal .section03Projects .container-Projects .projects .muestras p {
+.seccionPrincipal .section03Projects .container-Projects .projects .muestras a img:hover {
+  box-shadow: 1px 1px 30px #3C3744;
+}
+.seccionPrincipal .section03Projects .container-Projects .projects .muestras a p {
   font-size: 16px;
   text-align: center;
+}
+.seccionPrincipal .section03Projects .container-Projects .projects .muestras a .enproceso {
+  margin: 5%;
+  width: 100%;
+  width: 280px;
+  height: 200px;
+  border: 3px dotted #637081;
+  box-shadow: 1px 1px 5px #3C3744;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccionPrincipal .section03Projects .container-Projects .projects .muestras a .enproceso p {
+  color: #982649;
+  font-size: 30px;
+}
+.seccionPrincipal .section03Projects .container-Projects .projects .muestras a .enproceso:hover {
+  box-shadow: 1px 1px 30px #3C3744;
 }
 .seccionPrincipal .section04Contact {
   overflow: hidden;
@@ -251,6 +280,7 @@ header nav a:hover {
   padding-bottom: 200px;
 }
 .seccionPrincipal .section04Contact .contact {
+  width: 100%;
   max-width: 1000px;
   margin: 1.5% auto;
 }
@@ -262,9 +292,13 @@ header nav a:hover {
   margin: 40px 20px;
 }
 .seccionPrincipal .section04Contact .contIcons {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 100px;
 }
 .seccionPrincipal .section04Contact .contIcons .icontact {

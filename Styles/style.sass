@@ -223,20 +223,46 @@ header
                     font-size: 45px
                 p
                     font-size: 20px
+                    margin: 40px 0px
             .projects
                 display: flex
                 flex-wrap: wrap
                 justify-content: center
+                text-align: center
                 .muestras
-                    //margin: 50px
                     margin: auto
-                    img
-                        margin: 5%
-                        width: 100%
-                    p
-                        font-size: 16px
-                        text-align: center
+                    a
+                        text-decoration: none
+                        img
+                            margin: 5%
+                            width: 100%
+                            max-width: 280px
+                            box-shadow: 1px 1px 5px #3C3744
+                        img:hover
+                            box-shadow: 1px 1px 30px #3C3744
+                        p
+                            font-size: 16px
+                            text-align: center
+                        
+                        .enproceso
+                            margin: 5% 
+                            width: 100%
+                            width: 280px
+                            height: 200px
+                            border: 3px dotted #637081
+                            box-shadow: 1px 1px 5px #3C3744
+                            background: #ccc
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            p
+                                color: #982649
+                                font-size: 30px 
+                        .enproceso:hover
+                            box-shadow: 1px 1px 30px #3C3744
+                            
 
+                            
 
     .section04Contact
         overflow: hidden
@@ -246,6 +272,7 @@ header
         padding-top: 200px
         padding-bottom: 200px
         .contact
+            width: 100%
             max-width: 1000px
             margin: 1.5% auto
             h3
@@ -254,9 +281,13 @@ header
                 font-size: 20px
                 margin: 40px 20px
         .contIcons
+            width: 100%
+            max-width: 1000px
+            margin: auto
             display: flex
             flex-wrap: wrap
-            justify-content: space-around
+            justify-content: space-between
+            align-items: center
             margin-top: 100px
             .icontact
                 width: 100px
