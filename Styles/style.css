@@ -114,6 +114,7 @@ header nav a:hover {
 .seccionPrincipal .section02AboutMe {
   overflow: hidden;
   background: url(../img/Texture-So-White-Pattern.png);
+  width: 100%;
   margin-top: 200px;
 }
 .seccionPrincipal .section02AboutMe .contenedorFloat {
@@ -216,10 +217,12 @@ header nav a:hover {
   width: 100%;
   background: url(../img/Texture-So-White-Pattern.png);
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .seccionPrincipal .section03Projects .container-Projects {
   max-width: 1000px;
-  margin: 1.5% auto;
+  width: 90%;
+  margin: 0.5% auto;
 }
 .seccionPrincipal .section03Projects .container-Projects .DescriptionProjects h3 {
   font-size: 45px;
@@ -279,58 +282,55 @@ header nav a:hover {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.seccionPrincipal .section04Contact .contact {
-  width: 100%;
+.seccionPrincipal .section04Contact .container-contact {
   max-width: 1000px;
-  margin: 1.5% auto;
+  width: 90%;
+  margin: 0.5% auto;
 }
-.seccionPrincipal .section04Contact .contact h3 {
+.seccionPrincipal .section04Contact .container-contact .contact-me h3 {
   font-size: 45px;
 }
-.seccionPrincipal .section04Contact .contact h4 {
+.seccionPrincipal .section04Contact .container-contact .contact-me h4 {
   font-size: 20px;
   margin: 40px 20px;
 }
-.seccionPrincipal .section04Contact .contIcons {
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
+.seccionPrincipal .section04Contact .container-contact .container-icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-top: 100px;
 }
-.seccionPrincipal .section04Contact .contIcons .icontact {
+.seccionPrincipal .section04Contact .container-contact .container-icons .icon-flat {
   width: 100px;
   height: 100px;
   text-align: center;
 }
-.seccionPrincipal .section04Contact .contIcons .icontact a {
+.seccionPrincipal .section04Contact .container-contact .container-icons .icon-flat a {
   font-size: 80px;
 }
-.seccionPrincipal .section04Contact .contIcons .icontact .iconLinkedin {
+.seccionPrincipal .section04Contact .container-contact .container-icons .icon-flat .iconLinkedin {
   color: #0e76a8;
 }
-.seccionPrincipal .section04Contact .contIcons .icontact .iconLinkedin:hover {
+.seccionPrincipal .section04Contact .container-contact .container-icons .icon-flat .iconLinkedin:hover {
   text-shadow: 0.5px 0.5px 10px rgba(14, 118, 168, 0.5);
 }
-.seccionPrincipal .section04Contact .contIcons .icontact .iconGit {
+.seccionPrincipal .section04Contact .container-contact .container-icons .icon-flat .iconGit {
   color: #000;
 }
-.seccionPrincipal .section04Contact .contIcons .icontact .iconGit:hover {
+.seccionPrincipal .section04Contact .container-contact .container-icons .icon-flat .iconGit:hover {
   text-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.7);
 }
-.seccionPrincipal .section04Contact .contIcons .icontact p {
+.seccionPrincipal .section04Contact .container-contact .container-icons .icon-flat p {
   font-size: 16px;
 }
 
 footer {
-  width: 100%;
   background: #1e2b38;
   padding: 30px;
 }
 footer .contFooter {
+  width: 90%;
   text-align: center;
 }
 footer p {
