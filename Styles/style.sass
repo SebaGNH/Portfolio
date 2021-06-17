@@ -1,0 +1,294 @@
+*
+    margin: 0px
+    padding: 0px
+    box-sizing: border-box
+
+html
+    scroll-behavior: smooth
+body
+    background: #ccc url(../img/fondo.jpg)
+    background-size: cover
+    background-attachment: fixed
+    font-family: 'Roboto', Arial, Helvetica, sans-serif
+
+
+
+header
+    //background: red
+    overflow: hidden
+    max-width: 1000px
+    width: 90%
+    margin: 1.5% auto// 14%
+    //margin-bottom: 300px // fue lo mismo 300px que 14% // claro, pero estaba centrando de abajo al contenido de arriba, está mal
+    .logo
+        img
+            float: left
+            width: 4%
+    nav 
+        list-style: none
+        float: right
+        text-decoration: none
+        a
+            text-decoration: none
+            margin-left: 40px
+            //margin-left: 14%
+            font-weight: bold
+            font-size: 18px
+            color:#bbbbbb
+        a:hover 
+                color: #ffffff
+
+.seccionPrincipal
+    //background: green
+    .section01
+        //background: #808080
+        overflow: hidden
+        max-width: 1000px
+        width: 90%
+        //margin: 12% auto 0%// 22%
+        margin: auto 
+        //align-content: center
+        margin-top: 250px
+        .fotoPerfil
+            //background: #000080
+            width: 30%
+            float: left
+            text-align: center
+            img
+                border-radius: 50%
+                border: 3px solid rgba(#3A86FF,0.6)
+                width: 80%
+        .contenedor-presentacion
+            //background: blue
+            float: right
+            width: 70%
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column
+            align-content: center
+            justify-content: space-between
+            
+            .saludo
+                //background: olive
+                width: 100%
+                text-align: center
+                align-self: flex-start
+                
+                h3
+                    font-size: 45px
+                    color: #fff
+                    font-weight: lighter  // a esta cambiarla con la correspondiente a robotto
+                h4
+                    font-size: 52px
+                    color: #3A86FF
+                    text-shadow: 1px 1px 20px rgba(#3a86ff,.5) 
+            .contArrow
+                //background: red
+                max-width: 50px
+                max-height: 100px
+                text-align: center
+                margin-top: 250px
+                //margin-bottom: 170px
+                margin-bottom: 15px
+                animation: flecha 2s infinite
+                border-radius: 50px
+                border: 2px solid #fff
+                color: rgba(#fff,5)
+                position: relative
+                left: 70%
+                .btnArrow
+                    font-size: 35px
+                    transition: 0.5s  //tiempo que tarda en aplicarse el efecto
+                    color: #fff
+                    width: 40px
+                    height: 70px
+                    margin-top: 10px
+                    display: inline-block
+                    animation: flechaIcono 2s ease-out infinite
+                .btnArrow:hover
+                    color: #007bff 
+
+
+    .section02
+        overflow: hidden
+        background: url(../img/Texture-So-White-Pattern.png)
+        //background: #808080
+        margin-top: 200px
+        padding-bottom: 260px
+        //margin: auto
+        .contenedorFloat
+            position: float
+            max-width: 1000px
+            margin: .5% auto
+            margin-top: 100px
+            .contenedor-aboutme
+                //background: #008800
+                width: 60%
+                float: left
+                margin-bottom: 100px
+                .descriptionLeft
+                    //background: #800080
+                    width: 100%
+                    h3
+                        font-size: 45px
+                        margin-bottom: 30px
+                    p
+                        font-size: 20px
+                .contArrow
+                    max-width: 50px
+                    max-height: 100px
+                    text-align: center
+                    margin-top: 200px
+                    margin-bottom: 190px
+                    animation: flecha 2s infinite
+                    border-radius: 50px
+                    border: 2px solid #000
+                    color: rgba(#000,5)
+                    position: relative
+                    left: 30%
+                    .btnArrow
+                        font-size: 35px
+                        transition: 0.5s  //tiempo que tarda en aplicarse el efecto
+                        color: #000
+                        width: 40px
+                        height: 70px
+                        margin-top: 10px
+                        display: inline-block
+                        animation: flechaIcono 2s ease-out infinite
+                    .btnArrow:hover
+                        color: #007bff 
+
+            .my-skills
+                float: right
+                width: 38%
+                .skills-learned
+                    //background: #000080 
+                    h3
+                        font-size: 25px
+                    .contenedorIconos
+                        display: flex
+                        align-items: center //alinea los items verticalmente, no hornizontalmente
+                        justify-content: center //Los centra en el contenedor por más que agrande o achique la ventana
+                        flex-wrap: wrap  //Si no hay espacio los pone abajo
+                        .iconoSkill
+                            margin: 5%
+                            width: 20%
+                            img
+                                width: 100%
+                                border-radius: 5%
+                            p
+                                font-size: 20px
+                                text-align: center
+                .skills-inProcess                          
+                    //background: #000080 
+                    margin-top: 50px
+                    h3
+                        font-size: 25px
+                    .contenedorIconos
+                        display: flex
+                        align-items: center //alinea los items verticalmente, no hornizontalmente
+                        justify-content: center //Los centra en el contenedor por más que agrande o achique la ventana
+                        flex-wrap: wrap  //Si no hay espacio los pone abajo
+                        .iconoSkill
+                            margin: 5%
+                            width: 20%
+                            img
+                                width: 100%
+                                border-radius: 5%
+                            p
+                                font-size: 20px
+                                text-align: center
+
+
+    .section03
+        overflow: hidden
+        width: 100%
+        background: url(../img/Texture-So-White-Pattern.png)
+        padding-top: 200px
+        .container-Projects
+            max-width: 1000px
+            margin: 1.5% auto          
+            div
+                h3
+                    font-size: 45px
+                p
+                    font-size: 20px
+            .projects
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                .muestras
+                    margin: 50px
+                    img
+                        margin: 5%
+                        width: 100%
+                    p
+                        font-size: 16px
+                        text-align: center
+
+
+    .section04
+        width: 100%
+        background: url(../img/Texture-So-White-Pattern.png)
+        padding: 200px
+        .contact
+            max-width: 1000px
+            margin: 1.5% auto
+            h3
+                font-size: 45px
+                color: #000
+            h4
+                font-size: 20px
+                color: #000
+                margin: 40px 20px
+        .contIcons
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-around
+            margin-top: 100px
+            .icontact
+                width: 100px
+                height: 100px
+                text-align: center
+                a
+                    font-size: 80px
+                .iconLinkedin
+                    color:#0e76a8
+                .iconLinkedin:hover
+                    text-shadow: .5px .5px 10px rgba(#0e76a8, .5)
+                .iconGit
+                    color:#000
+                .iconGit:hover    
+                    text-shadow: .5px .5px 10px rgba(#000, .7)
+                p
+                    font-size: 16px
+
+
+footer
+    width: 100%
+    background: #1e2b38
+    padding: 30px
+    .contFooter
+        text-align: center
+    p
+        color: rgba(#ffffff,.6)
+
+
+
+
+@keyframes flecha
+            0%
+                transform: translate(0, 0)
+            50%
+                transform: translate(0, 15px)
+            100%
+                transform: translate(0, 0)
+
+
+@keyframes flechaIcono
+    0%
+        transform: translate(0, 0)
+    50%
+        transform: translate(0, 30px)
+    100%
+        transform: translate(0, 0)            

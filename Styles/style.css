@@ -1,0 +1,328 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ccc url(../img/fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+header {
+  overflow: hidden;
+  max-width: 1000px;
+  width: 90%;
+  margin: 1.5% auto;
+}
+header .logo img {
+  float: left;
+  width: 4%;
+}
+header nav {
+  list-style: none;
+  float: right;
+  text-decoration: none;
+}
+header nav a {
+  text-decoration: none;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #bbbbbb;
+}
+header nav a:hover {
+  color: #ffffff;
+}
+
+.seccionPrincipal .section01 {
+  overflow: hidden;
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  margin-top: 250px;
+}
+.seccionPrincipal .section01 .fotoPerfil {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+.seccionPrincipal .section01 .fotoPerfil img {
+  border-radius: 50%;
+  border: 3px solid rgba(58, 134, 255, 0.6);
+  width: 80%;
+}
+.seccionPrincipal .section01 .contenedor-presentacion {
+  float: right;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+.seccionPrincipal .section01 .contenedor-presentacion .saludo {
+  width: 100%;
+  text-align: center;
+  align-self: flex-start;
+}
+.seccionPrincipal .section01 .contenedor-presentacion .saludo h3 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: lighter;
+}
+.seccionPrincipal .section01 .contenedor-presentacion .saludo h4 {
+  font-size: 52px;
+  color: #3A86FF;
+  text-shadow: 1px 1px 20px rgba(58, 134, 255, 0.5);
+}
+.seccionPrincipal .section01 .contenedor-presentacion .contArrow {
+  max-width: 50px;
+  max-height: 100px;
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 15px;
+  animation: flecha 2s infinite;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  color: white;
+  position: relative;
+  left: 70%;
+}
+.seccionPrincipal .section01 .contenedor-presentacion .contArrow .btnArrow {
+  font-size: 35px;
+  transition: 0.5s;
+  color: #fff;
+  width: 40px;
+  height: 70px;
+  margin-top: 10px;
+  display: inline-block;
+  animation: flechaIcono 2s ease-out infinite;
+}
+.seccionPrincipal .section01 .contenedor-presentacion .contArrow .btnArrow:hover {
+  color: #007bff;
+}
+.seccionPrincipal .section02 {
+  overflow: hidden;
+  background: url(../img/Texture-So-White-Pattern.png);
+  margin-top: 200px;
+  padding-bottom: 260px;
+}
+.seccionPrincipal .section02 .contenedorFloat {
+  position: float;
+  max-width: 1000px;
+  margin: 0.5% auto;
+  margin-top: 100px;
+}
+.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme {
+  width: 60%;
+  float: left;
+  margin-bottom: 100px;
+}
+.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .descriptionLeft {
+  width: 100%;
+}
+.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .descriptionLeft h3 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .descriptionLeft p {
+  font-size: 20px;
+}
+.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .contArrow {
+  max-width: 50px;
+  max-height: 100px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 190px;
+  animation: flecha 2s infinite;
+  border-radius: 50px;
+  border: 2px solid #000;
+  color: black;
+  position: relative;
+  left: 30%;
+}
+.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .contArrow .btnArrow {
+  font-size: 35px;
+  transition: 0.5s;
+  color: #000;
+  width: 40px;
+  height: 70px;
+  margin-top: 10px;
+  display: inline-block;
+  animation: flechaIcono 2s ease-out infinite;
+}
+.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .contArrow .btnArrow:hover {
+  color: #007bff;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills {
+  float: right;
+  width: 38%;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-learned h3 {
+  font-size: 25px;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-learned .contenedorIconos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-learned .contenedorIconos .iconoSkill {
+  margin: 5%;
+  width: 20%;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-learned .contenedorIconos .iconoSkill img {
+  width: 100%;
+  border-radius: 5%;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-learned .contenedorIconos .iconoSkill p {
+  font-size: 20px;
+  text-align: center;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess {
+  margin-top: 50px;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess h3 {
+  font-size: 25px;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess .contenedorIconos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess .contenedorIconos .iconoSkill {
+  margin: 5%;
+  width: 20%;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess .contenedorIconos .iconoSkill img {
+  width: 100%;
+  border-radius: 5%;
+}
+.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess .contenedorIconos .iconoSkill p {
+  font-size: 20px;
+  text-align: center;
+}
+.seccionPrincipal .section03 {
+  overflow: hidden;
+  width: 100%;
+  background: url(../img/Texture-So-White-Pattern.png);
+  padding-top: 200px;
+}
+.seccionPrincipal .section03 .container-Projects {
+  max-width: 1000px;
+  margin: 1.5% auto;
+}
+.seccionPrincipal .section03 .container-Projects div h3 {
+  font-size: 45px;
+}
+.seccionPrincipal .section03 .container-Projects div p {
+  font-size: 20px;
+}
+.seccionPrincipal .section03 .container-Projects .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.seccionPrincipal .section03 .container-Projects .projects .muestras {
+  margin: 50px;
+}
+.seccionPrincipal .section03 .container-Projects .projects .muestras img {
+  margin: 5%;
+  width: 100%;
+}
+.seccionPrincipal .section03 .container-Projects .projects .muestras p {
+  font-size: 16px;
+  text-align: center;
+}
+.seccionPrincipal .section04 {
+  width: 100%;
+  background: url(../img/Texture-So-White-Pattern.png);
+  padding: 200px;
+}
+.seccionPrincipal .section04 .contact {
+  max-width: 1000px;
+  margin: 1.5% auto;
+}
+.seccionPrincipal .section04 .contact h3 {
+  font-size: 45px;
+  color: #000;
+}
+.seccionPrincipal .section04 .contact h4 {
+  font-size: 20px;
+  color: #000;
+  margin: 40px 20px;
+}
+.seccionPrincipal .section04 .contIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.seccionPrincipal .section04 .contIcons .icontact {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.seccionPrincipal .section04 .contIcons .icontact a {
+  font-size: 80px;
+}
+.seccionPrincipal .section04 .contIcons .icontact .iconLinkedin {
+  color: #0e76a8;
+}
+.seccionPrincipal .section04 .contIcons .icontact .iconLinkedin:hover {
+  text-shadow: 0.5px 0.5px 10px rgba(14, 118, 168, 0.5);
+}
+.seccionPrincipal .section04 .contIcons .icontact .iconGit {
+  color: #000;
+}
+.seccionPrincipal .section04 .contIcons .icontact .iconGit:hover {
+  text-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.7);
+}
+.seccionPrincipal .section04 .contIcons .icontact p {
+  font-size: 16px;
+}
+
+footer {
+  width: 100%;
+  background: #1e2b38;
+  padding: 30px;
+}
+footer .contFooter {
+  text-align: center;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@keyframes flecha {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes flechaIcono {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 30px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
