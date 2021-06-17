@@ -40,7 +40,10 @@ header
 
 .seccionPrincipal
     //background: green
-    .section01
+    h3,h4,p
+        color: #3C3744
+        //color: red
+    .section01Main
         //background: #808080
         overflow: hidden
         max-width: 1000px
@@ -81,7 +84,9 @@ header
                 h4
                     font-size: 52px
                     color: #3A86FF
+                    //color: #3367d3
                     text-shadow: 1px 1px 20px rgba(#3a86ff,.5) 
+                    //text-shadow: 1px 1px 20px rgba(#3367d3,.5) 
             .contArrow
                 //background: red
                 max-width: 50px
@@ -109,12 +114,13 @@ header
                     color: #007bff 
 
 
-    .section02
+    .section02AboutMe
         overflow: hidden
         background: url(../img/Texture-So-White-Pattern.png)
         //background: #808080
         margin-top: 200px
-        padding-bottom: 260px
+        //padding-bottom: 260px
+        //padding-bottom: 50px
         //margin: auto
         .contenedorFloat
             position: float
@@ -142,14 +148,16 @@ header
                     margin-bottom: 190px
                     animation: flecha 2s infinite
                     border-radius: 50px
-                    border: 2px solid #000
-                    color: rgba(#000,5)
+                    //border: 2px solid #000
+                    border: 2px solid #3C3744
+                    //color: rgba(#000,5)
+                    //color: #3C3744
                     position: relative
                     left: 30%
                     .btnArrow
                         font-size: 35px
                         transition: 0.5s  //tiempo que tarda en aplicarse el efecto
-                        color: #000
+                        color: #3C3744
                         width: 40px
                         height: 70px
                         margin-top: 10px
@@ -200,15 +208,17 @@ header
                                 text-align: center
 
 
-    .section03
+    .section03Projects
         overflow: hidden
         width: 100%
         background: url(../img/Texture-So-White-Pattern.png)
-        padding-top: 200px
+        //padding-top: 200px
+        padding-top: 100px
         .container-Projects
             max-width: 1000px
+            //margin: 1.5% auto          
             margin: 1.5% auto          
-            div
+            .DescriptionProjects
                 h3
                     font-size: 45px
                 p
@@ -218,7 +228,8 @@ header
                 flex-wrap: wrap
                 justify-content: center
                 .muestras
-                    margin: 50px
+                    //margin: 50px
+                    margin: auto
                     img
                         margin: 5%
                         width: 100%
@@ -227,19 +238,20 @@ header
                         text-align: center
 
 
-    .section04
+    .section04Contact
+        overflow: hidden
         width: 100%
         background: url(../img/Texture-So-White-Pattern.png)
-        padding: 200px
+        //padding: 200px
+        padding-top: 200px
+        padding-bottom: 200px
         .contact
             max-width: 1000px
             margin: 1.5% auto
             h3
                 font-size: 45px
-                color: #000
             h4
                 font-size: 20px
-                color: #000
                 margin: 40px 20px
         .contIcons
             display: flex

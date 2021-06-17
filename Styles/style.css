@@ -41,24 +41,27 @@ header nav a:hover {
   color: #ffffff;
 }
 
-.seccionPrincipal .section01 {
+.seccionPrincipal h3, .seccionPrincipal h4, .seccionPrincipal p {
+  color: #3C3744;
+}
+.seccionPrincipal .section01Main {
   overflow: hidden;
   max-width: 1000px;
   width: 90%;
   margin: auto;
   margin-top: 250px;
 }
-.seccionPrincipal .section01 .fotoPerfil {
+.seccionPrincipal .section01Main .fotoPerfil {
   width: 30%;
   float: left;
   text-align: center;
 }
-.seccionPrincipal .section01 .fotoPerfil img {
+.seccionPrincipal .section01Main .fotoPerfil img {
   border-radius: 50%;
   border: 3px solid rgba(58, 134, 255, 0.6);
   width: 80%;
 }
-.seccionPrincipal .section01 .contenedor-presentacion {
+.seccionPrincipal .section01Main .contenedor-presentacion {
   float: right;
   width: 70%;
   display: flex;
@@ -67,22 +70,22 @@ header nav a:hover {
   align-content: center;
   justify-content: space-between;
 }
-.seccionPrincipal .section01 .contenedor-presentacion .saludo {
+.seccionPrincipal .section01Main .contenedor-presentacion .saludo {
   width: 100%;
   text-align: center;
   align-self: flex-start;
 }
-.seccionPrincipal .section01 .contenedor-presentacion .saludo h3 {
+.seccionPrincipal .section01Main .contenedor-presentacion .saludo h3 {
   font-size: 45px;
   color: #fff;
   font-weight: lighter;
 }
-.seccionPrincipal .section01 .contenedor-presentacion .saludo h4 {
+.seccionPrincipal .section01Main .contenedor-presentacion .saludo h4 {
   font-size: 52px;
   color: #3A86FF;
   text-shadow: 1px 1px 20px rgba(58, 134, 255, 0.5);
 }
-.seccionPrincipal .section01 .contenedor-presentacion .contArrow {
+.seccionPrincipal .section01Main .contenedor-presentacion .contArrow {
   max-width: 50px;
   max-height: 100px;
   text-align: center;
@@ -95,7 +98,7 @@ header nav a:hover {
   position: relative;
   left: 70%;
 }
-.seccionPrincipal .section01 .contenedor-presentacion .contArrow .btnArrow {
+.seccionPrincipal .section01Main .contenedor-presentacion .contArrow .btnArrow {
   font-size: 35px;
   transition: 0.5s;
   color: #fff;
@@ -105,37 +108,36 @@ header nav a:hover {
   display: inline-block;
   animation: flechaIcono 2s ease-out infinite;
 }
-.seccionPrincipal .section01 .contenedor-presentacion .contArrow .btnArrow:hover {
+.seccionPrincipal .section01Main .contenedor-presentacion .contArrow .btnArrow:hover {
   color: #007bff;
 }
-.seccionPrincipal .section02 {
+.seccionPrincipal .section02AboutMe {
   overflow: hidden;
   background: url(../img/Texture-So-White-Pattern.png);
   margin-top: 200px;
-  padding-bottom: 260px;
 }
-.seccionPrincipal .section02 .contenedorFloat {
+.seccionPrincipal .section02AboutMe .contenedorFloat {
   position: float;
   max-width: 1000px;
   margin: 0.5% auto;
   margin-top: 100px;
 }
-.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme {
+.seccionPrincipal .section02AboutMe .contenedorFloat .contenedor-aboutme {
   width: 60%;
   float: left;
   margin-bottom: 100px;
 }
-.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .descriptionLeft {
+.seccionPrincipal .section02AboutMe .contenedorFloat .contenedor-aboutme .descriptionLeft {
   width: 100%;
 }
-.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .descriptionLeft h3 {
+.seccionPrincipal .section02AboutMe .contenedorFloat .contenedor-aboutme .descriptionLeft h3 {
   font-size: 45px;
   margin-bottom: 30px;
 }
-.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .descriptionLeft p {
+.seccionPrincipal .section02AboutMe .contenedorFloat .contenedor-aboutme .descriptionLeft p {
   font-size: 20px;
 }
-.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .contArrow {
+.seccionPrincipal .section02AboutMe .contenedorFloat .contenedor-aboutme .contArrow {
   max-width: 50px;
   max-height: 100px;
   text-align: center;
@@ -143,150 +145,149 @@ header nav a:hover {
   margin-bottom: 190px;
   animation: flecha 2s infinite;
   border-radius: 50px;
-  border: 2px solid #000;
-  color: black;
+  border: 2px solid #3C3744;
   position: relative;
   left: 30%;
 }
-.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .contArrow .btnArrow {
+.seccionPrincipal .section02AboutMe .contenedorFloat .contenedor-aboutme .contArrow .btnArrow {
   font-size: 35px;
   transition: 0.5s;
-  color: #000;
+  color: #3C3744;
   width: 40px;
   height: 70px;
   margin-top: 10px;
   display: inline-block;
   animation: flechaIcono 2s ease-out infinite;
 }
-.seccionPrincipal .section02 .contenedorFloat .contenedor-aboutme .contArrow .btnArrow:hover {
+.seccionPrincipal .section02AboutMe .contenedorFloat .contenedor-aboutme .contArrow .btnArrow:hover {
   color: #007bff;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills {
   float: right;
   width: 38%;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-learned h3 {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills .skills-learned h3 {
   font-size: 25px;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-learned .contenedorIconos {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills .skills-learned .contenedorIconos {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-learned .contenedorIconos .iconoSkill {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills .skills-learned .contenedorIconos .iconoSkill {
   margin: 5%;
   width: 20%;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-learned .contenedorIconos .iconoSkill img {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills .skills-learned .contenedorIconos .iconoSkill img {
   width: 100%;
   border-radius: 5%;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-learned .contenedorIconos .iconoSkill p {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills .skills-learned .contenedorIconos .iconoSkill p {
   font-size: 20px;
   text-align: center;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills .skills-inProcess {
   margin-top: 50px;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess h3 {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills .skills-inProcess h3 {
   font-size: 25px;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess .contenedorIconos {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills .skills-inProcess .contenedorIconos {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess .contenedorIconos .iconoSkill {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills .skills-inProcess .contenedorIconos .iconoSkill {
   margin: 5%;
   width: 20%;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess .contenedorIconos .iconoSkill img {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills .skills-inProcess .contenedorIconos .iconoSkill img {
   width: 100%;
   border-radius: 5%;
 }
-.seccionPrincipal .section02 .contenedorFloat .my-skills .skills-inProcess .contenedorIconos .iconoSkill p {
+.seccionPrincipal .section02AboutMe .contenedorFloat .my-skills .skills-inProcess .contenedorIconos .iconoSkill p {
   font-size: 20px;
   text-align: center;
 }
-.seccionPrincipal .section03 {
+.seccionPrincipal .section03Projects {
+  overflow: hidden;
+  width: 100%;
+  background: url(../img/Texture-So-White-Pattern.png);
+  padding-top: 100px;
+}
+.seccionPrincipal .section03Projects .container-Projects {
+  max-width: 1000px;
+  margin: 1.5% auto;
+}
+.seccionPrincipal .section03Projects .container-Projects .DescriptionProjects h3 {
+  font-size: 45px;
+}
+.seccionPrincipal .section03Projects .container-Projects .DescriptionProjects p {
+  font-size: 20px;
+}
+.seccionPrincipal .section03Projects .container-Projects .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.seccionPrincipal .section03Projects .container-Projects .projects .muestras {
+  margin: auto;
+}
+.seccionPrincipal .section03Projects .container-Projects .projects .muestras img {
+  margin: 5%;
+  width: 100%;
+}
+.seccionPrincipal .section03Projects .container-Projects .projects .muestras p {
+  font-size: 16px;
+  text-align: center;
+}
+.seccionPrincipal .section04Contact {
   overflow: hidden;
   width: 100%;
   background: url(../img/Texture-So-White-Pattern.png);
   padding-top: 200px;
+  padding-bottom: 200px;
 }
-.seccionPrincipal .section03 .container-Projects {
+.seccionPrincipal .section04Contact .contact {
   max-width: 1000px;
   margin: 1.5% auto;
 }
-.seccionPrincipal .section03 .container-Projects div h3 {
+.seccionPrincipal .section04Contact .contact h3 {
   font-size: 45px;
 }
-.seccionPrincipal .section03 .container-Projects div p {
+.seccionPrincipal .section04Contact .contact h4 {
   font-size: 20px;
-}
-.seccionPrincipal .section03 .container-Projects .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.seccionPrincipal .section03 .container-Projects .projects .muestras {
-  margin: 50px;
-}
-.seccionPrincipal .section03 .container-Projects .projects .muestras img {
-  margin: 5%;
-  width: 100%;
-}
-.seccionPrincipal .section03 .container-Projects .projects .muestras p {
-  font-size: 16px;
-  text-align: center;
-}
-.seccionPrincipal .section04 {
-  width: 100%;
-  background: url(../img/Texture-So-White-Pattern.png);
-  padding: 200px;
-}
-.seccionPrincipal .section04 .contact {
-  max-width: 1000px;
-  margin: 1.5% auto;
-}
-.seccionPrincipal .section04 .contact h3 {
-  font-size: 45px;
-  color: #000;
-}
-.seccionPrincipal .section04 .contact h4 {
-  font-size: 20px;
-  color: #000;
   margin: 40px 20px;
 }
-.seccionPrincipal .section04 .contIcons {
+.seccionPrincipal .section04Contact .contIcons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 100px;
 }
-.seccionPrincipal .section04 .contIcons .icontact {
+.seccionPrincipal .section04Contact .contIcons .icontact {
   width: 100px;
   height: 100px;
   text-align: center;
 }
-.seccionPrincipal .section04 .contIcons .icontact a {
+.seccionPrincipal .section04Contact .contIcons .icontact a {
   font-size: 80px;
 }
-.seccionPrincipal .section04 .contIcons .icontact .iconLinkedin {
+.seccionPrincipal .section04Contact .contIcons .icontact .iconLinkedin {
   color: #0e76a8;
 }
-.seccionPrincipal .section04 .contIcons .icontact .iconLinkedin:hover {
+.seccionPrincipal .section04Contact .contIcons .icontact .iconLinkedin:hover {
   text-shadow: 0.5px 0.5px 10px rgba(14, 118, 168, 0.5);
 }
-.seccionPrincipal .section04 .contIcons .icontact .iconGit {
+.seccionPrincipal .section04Contact .contIcons .icontact .iconGit {
   color: #000;
 }
-.seccionPrincipal .section04 .contIcons .icontact .iconGit:hover {
+.seccionPrincipal .section04Contact .contIcons .icontact .iconGit:hover {
   text-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.7);
 }
-.seccionPrincipal .section04 .contIcons .icontact p {
+.seccionPrincipal .section04Contact .contIcons .icontact p {
   font-size: 16px;
 }
 
