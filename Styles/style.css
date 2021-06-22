@@ -364,5 +364,10 @@ footer p {
     transform: translate(0, 0);
   }
 }
+@media (max-width: 800px) {
+  body {
+    background: #000;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
