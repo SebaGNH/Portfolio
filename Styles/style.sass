@@ -18,13 +18,16 @@ header
         overflow: hidden
         max-width: 1000px
         width: 90%
-        margin: 2.5% auto
+        margin: 1.5% auto
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-between
+        //align-items: baseline
         .logo
             img
-                float: left
-                width: 4%
+                width: 40%
         nav 
-            float: right
             text-decoration: none
             a
                 font-size: 18px
@@ -44,21 +47,21 @@ section
         width: 90%
         margin: auto 
         margin-top: 250px
+        display: flex
+        justify-content: space-between
         .fotoPerfil
-            width: 30%
-            float: left
+            width: 30%  // tamaño del contenedor, no de la imagen ya que el otro será 70%
             text-align: center
             img
+                width: 80%
                 border-radius: 50%
                 border: 3px solid rgba(#3A86FF,0.6)
-                width: 80%
         .contenedor-presentacion
-            float: right
             width: 70%
             display: flex
             flex-wrap: wrap
             flex-direction: column
-            align-content: center
+            //align-content: center
             justify-content: space-between
             .saludo
                 width: 100%
@@ -101,26 +104,36 @@ section
     .section02-AboutMe-and-myskills
         overflow: hidden
         background: url(../img/Texture-So-White-Pattern.png)
+        //background: #645C70
         width: 100%
         margin-top: 200px
-        padding-bottom: 50px
-        .container-aboutme-and-myskills
-            position: float
+        padding-bottom: 100px
+        .container-aboutme-and-myskills // para que el background abarque todo 100%
+            //position: float
             max-width: 1000px
             width: 90%
-            margin: .5% auto
+            //margin: .5% auto
+            margin: auto
             margin-top: 100px
+            display: flex
+            flex-direction: row
+            flex-wrap: wrap
+            justify-content: space-between
             .container-aboutme
                 width: 60%
-                float: left
-                margin-bottom: 100px
-                .description-Left
+                //float: left
+                //margin-bottom: 100px
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                .about-me
                     width: 100%
                     h3
                         font-size: 45px
                         margin-bottom: 30px
                     p
                         font-size: 20px
+                        line-height: 35px  //  <-- Espacio entre renglones, se usa para que el texto no esté tan apretado y sea más fácil leerlo 
                 .container-arrow
                     max-width: 50px
                     max-height: 100px
@@ -132,6 +145,7 @@ section
                     border: 2px solid #3C3744
                     position: relative
                     left: 30%
+                    //align-self: center
                     .btnArrow
                         font-size: 35px
                         transition: 0.5s  //tiempo que tarda en aplicarse el efecto
@@ -145,16 +159,17 @@ section
                         color: #007bff 
 
             .container-myskills
-                float: right
-                width: 38%
+                width: 40%
+                display: flex
+                flex-direction: column
+                justify-content: space-around
                 .skills-learned
                     h3
                         font-size: 25px
                     .contenedorIconos
                         display: flex
-                        align-items: center //alinea los items verticalmente, no hornizontalmente
-                        justify-content: center //Los centra en el contenedor por más que agrande o achique la ventana
-                        flex-wrap: wrap  //Si no hay espacio los pone abajo
+                        flex-wrap: wrap  
+                        justify-content: space-around 
                         .iconoSkill
                             margin: 5%
                             width: 20%
@@ -165,13 +180,11 @@ section
                                 font-size: 20px
                                 text-align: center
                 .skills-inProcess  
-                    margin-top: 50px
                     h3
                         font-size: 25px
                     .contenedorIconos
                         display: flex
-                        align-items: center 
-                        justify-content: center
+                        justify-content: space-around
                         flex-wrap: wrap 
                         .iconoSkill
                             margin: 5%
@@ -188,12 +201,14 @@ section
         overflow: hidden
         width: 100%
         background: url(../img/Texture-So-White-Pattern.png)
+        //background: #645C70
         padding-top: 100px
         padding-bottom: 100px
         .container-Projects
             max-width: 1000px
             width: 90%         
-            margin: .5% auto          
+            //margin: .5% auto          
+            margin: auto          
             .DescriptionProjects
                 h3
                     font-size: 45px
@@ -203,16 +218,19 @@ section
             .projects
                 display: flex
                 flex-wrap: wrap
-                justify-content: center
+                fdc
+                justify-content: space-between
                 text-align: center
                 .muestras
-                    margin: auto
+                    //margin: auto
                     a
                         text-decoration: none
                         img
-                            margin: 5%
+                            margin: 5% //<-- controlar 
                             width: 100%
                             max-width: 280px
+                            max-height: 200px
+                            border-radius: 2%
                             box-shadow: 1px 1px 5px #3C3744
                         img:hover
                             box-shadow: 1px 1px 30px #3C3744
@@ -226,6 +244,7 @@ section
                             width: 280px
                             height: 200px
                             border: 3px dotted #637081
+                            border-radius: 2%
                             box-shadow: 1px 1px 5px #3C3744
                             background: #ccc
                             display: flex
@@ -244,7 +263,8 @@ section
         overflow: hidden
         width: 100%
         background: url(../img/Texture-So-White-Pattern.png)
-        padding-top: 250px
+        //background: #645C70
+        padding-top: 100px
         padding-bottom: 200px
         .container-contact
             max-width: 1000px
