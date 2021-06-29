@@ -1,0 +1,88 @@
+.section02-AboutMe-and-myskills
+        overflow: hidden
+        background: url(../img/Texture-So-White-Pattern.png)
+        width: 100%
+        margin-top: 200px
+        padding-bottom: 100px
+        .container-aboutme-and-myskills // para que el background abarque todo 100%
+            max-width: 1000px
+            width: 90%
+            margin: auto
+            margin-top: 100px
+            display: flex
+            flex-wrap: wrap
+            flex-direction: row
+            justify-content: space-between
+            .container-aboutme
+                width: 60%
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                .about-me
+                    width: 100%
+                    h3
+                        font-size: 45px
+                        margin-bottom: 30px
+                    p
+                        font-size: 20px
+                        line-height: 35px 
+                .container-arrow
+                    max-width: 50px
+                    max-height: 100px
+                    text-align: center
+                    margin-top: 200px
+                    margin-bottom: 190px
+                    animation: flecha 2s infinite
+                    border-radius: 50px
+                    border: 2px solid $graySections
+                    position: relative
+                    left: 30%
+                    .btnArrow
+                        font-size: 35px
+                        transition: 0.5s  //tiempo que tarda en aplicarse el efecto
+                        color:$graySections
+                        width: 40px
+                        height: 70px
+                        margin-top: 10px
+                        display: inline-block
+                        animation: flechaIcono 2s ease-out infinite
+                        &:hover
+                            color: $primaryBlue
+
+            .container-myskills
+                width: 40%
+                display: flex
+                flex-direction: column
+                justify-content: space-around
+                .skills-learned
+                    h3
+                        font-size: 25px
+                    .contenedorIconos
+                        display: flex
+                        flex-wrap: wrap  
+                        justify-content: space-around 
+                        .iconoSkill
+                            margin: 5%
+                            width: 20%
+                            img
+                                width: 100%
+                                border-radius: 5%
+                            p
+                                font-size: 20px
+                                text-align: center
+                .skills-inProcess  
+                    h3
+                        font-size: 25px
+                    .contenedorIconos
+                        display: flex
+                        justify-content: space-around
+                        flex-wrap: wrap 
+                        .iconoSkill
+                            margin: 5%
+                            width: 20%
+                            img
+                                width: 100%
+                                border-radius: 5%
+                            p
+                                font-size: 20px
+                                text-align: center

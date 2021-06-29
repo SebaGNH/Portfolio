@@ -1,0 +1,58 @@
+.section01Main
+        overflow: hidden
+        max-width: 1000px
+        width: 90%
+        margin: auto 
+        margin-top: 250px
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        .fotoPerfil
+            width: 30%  // tamaño del contenedor, no de la imagen ya que el otro será 70%
+            text-align: center
+            img
+                width: 80%
+                border-radius: 50%
+                border: 3px solid rgba($primaryBlue,0.6)
+        .contenedor-presentacion
+            width: 70%
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column
+            justify-content: space-between
+            .saludo
+                width: 100%
+                text-align: center
+                align-self: flex-start
+                
+                h3
+                    font-size: 45px
+                    color: $white
+                    font-weight: lighter  // a esta cambiarla con la correspondiente a robotto
+                h4
+                    font-size: 52px
+                    color: $primaryBlue
+                    text-shadow: 1px 1px 20px rgba($primaryBlue,.6)  
+            .contArrow
+                max-width: 50px
+                max-height: 100px
+                text-align: center
+                margin-top: 250px
+                margin-bottom: 15px
+                animation: flecha 2s infinite
+                border-radius: 50px
+                border: 2px solid $white
+                color: rgba(white,5)
+                position: relative
+                left: 70%
+                .btnArrow
+                    font-size: 35px
+                    transition: 0.5s  //tiempo que tarda en aplicarse el efecto
+                    color: white
+                    width: 40px
+                    height: 70px
+                    margin-top: 10px
+                    display: inline-block
+                    animation: flechaIcono 2s ease-out infinite
+                    &:hover
+                        color: $primaryBlue
