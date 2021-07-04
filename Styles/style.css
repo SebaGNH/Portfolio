@@ -1,1 +1,456 @@
-*{margin:0px;padding:0px;box-sizing:border-box}html{scroll-behavior:smooth}body{background:#ccc url(../img/fondo.jpg);background-size:cover;background-attachment:fixed;font-family:"Roboto",Arial,Helvetica,sans-serif}header .container-header{overflow:hidden;max-width:1000px;width:90%;margin:1.5% auto;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between}header .container-header .logo img{width:40%}header .container-header nav{text-decoration:none}header .container-header nav a{font-size:18px;text-decoration:none;margin-left:40px;font-weight:bold;color:#bbb}header .container-header nav a:hover{color:#fff}section h3,section h4,section p{color:#3c3744}section .section01Main{overflow:hidden;max-width:1000px;width:90%;margin:auto;margin-top:250px;display:flex;flex-direction:row;justify-content:space-between}section .section01Main .fotoPerfil{width:30%;text-align:center}section .section01Main .fotoPerfil img{width:80%;border-radius:50%;border:3px solid rgba(58,134,255,.6)}section .section01Main .contenedor-presentacion{width:70%;display:flex;flex-wrap:wrap;flex-direction:column;justify-content:space-between}section .section01Main .contenedor-presentacion .saludo{width:100%;text-align:center;align-self:flex-start}section .section01Main .contenedor-presentacion .saludo h3{font-size:45px;color:#fff;font-weight:lighter}section .section01Main .contenedor-presentacion .saludo h4{font-size:52px;color:#3a86ff;text-shadow:1px 1px 20px rgba(58,134,255,.6)}section .section01Main .contenedor-presentacion .contArrow{max-width:50px;max-height:100px;text-align:center;margin-top:250px;margin-bottom:15px;animation:flecha 2s infinite;border-radius:50px;border:2px solid #fff;color:#fff;position:relative;left:70%}section .section01Main .contenedor-presentacion .contArrow .btnArrow{font-size:35px;transition:.5s;color:#fff;width:40px;height:70px;margin-top:10px;display:inline-block;animation:flechaIcono 2s ease-out infinite}section .section01Main .contenedor-presentacion .contArrow .btnArrow:hover{color:#3a86ff}section .section02-AboutMe-and-myskills{overflow:hidden;background:url(../img/Texture-So-White-Pattern.png);width:100%;margin-top:200px;padding-bottom:100px}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills{max-width:1000px;width:90%;margin:auto;margin-top:100px;display:flex;flex-wrap:wrap;flex-direction:row;justify-content:space-between}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme{width:60%;display:flex;flex-direction:column;justify-content:space-between}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .about-me{width:100%}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .about-me h3{font-size:45px;margin-bottom:30px}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .about-me p{font-size:20px;line-height:35px}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .container-arrow{max-width:50px;max-height:100px;text-align:center;margin-top:200px;margin-bottom:190px;animation:flecha 2s infinite;border-radius:50px;border:2px solid #3c3744;position:relative;left:30%}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .container-arrow .btnArrow{font-size:35px;transition:.5s;color:#3c3744;width:40px;height:70px;margin-top:10px;display:inline-block;animation:flechaIcono 2s ease-out infinite}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .container-arrow .btnArrow:hover{color:#3a86ff}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills{width:40%;display:flex;flex-direction:column;justify-content:space-around}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned h3{font-size:25px}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos{display:flex;flex-wrap:wrap;justify-content:space-around}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill{margin:5%;width:20%}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill img{width:100%;border-radius:5%}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill p{font-size:20px;text-align:center}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess h3{font-size:25px}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos{display:flex;justify-content:space-around;flex-wrap:wrap}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill{margin:5%;width:20%}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill img{width:100%;border-radius:5%}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill p{font-size:20px;text-align:center}section .section03Projects{overflow:hidden;width:100%;background:url(../img/Texture-So-White-Pattern.png);padding-top:100px;padding-bottom:100px}section .section03Projects .container-Projects{max-width:1000px;width:90%;margin:auto}section .section03Projects .container-Projects .DescriptionProjects h3{font-size:45px}section .section03Projects .container-Projects .DescriptionProjects p{font-size:20px;margin:40px 0px}section .section03Projects .container-Projects .projects{display:flex;flex-wrap:wrap;justify-content:space-between;text-align:center}section .section03Projects .container-Projects .projects .muestras a{text-decoration:none}section .section03Projects .container-Projects .projects .muestras a img{margin:5%;width:100%;max-width:280px;max-height:200px;border-radius:2%;box-shadow:1px 1px 5px #3c3744}section .section03Projects .container-Projects .projects .muestras a img:hover{box-shadow:1px 1px 30px #3c3744}section .section03Projects .container-Projects .projects .muestras a p{font-size:16px;text-align:center}section .section03Projects .container-Projects .projects .muestras a .enproceso{margin:5%;width:100%;width:280px;height:200px;border:3px dotted #637081;border-radius:2%;box-shadow:1px 1px 5px #3c3744;background:#ccc;display:flex;justify-content:center;align-items:center}section .section03Projects .container-Projects .projects .muestras a .enproceso p{color:#982649;font-size:30px}section .section03Projects .container-Projects .projects .muestras a .enproceso:hover{box-shadow:1px 1px 30px #3c3744}section .section04Contact{overflow:hidden;width:100%;background:url(../img/Texture-So-White-Pattern.png);padding-top:100px;padding-bottom:200px}section .section04Contact .container-contact{max-width:1000px;width:90%;margin:.5% auto}section .section04Contact .container-contact .contact-me h3{font-size:45px}section .section04Contact .container-contact .contact-me h4{font-size:20px;margin:40px 20px}section .section04Contact .container-contact .container-icons{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;margin-top:100px}section .section04Contact .container-contact .container-icons .icon-flat{width:100px;height:100px;text-align:center}section .section04Contact .container-contact .container-icons .icon-flat a{font-size:80px}section .section04Contact .container-contact .container-icons .icon-flat .iconLinkedin{color:#0e76a8}section .section04Contact .container-contact .container-icons .icon-flat .iconLinkedin:hover{text-shadow:.5px .5px 10px rgba(14,118,168,.5)}section .section04Contact .container-contact .container-icons .icon-flat .iconGit{color:#000}section .section04Contact .container-contact .container-icons .icon-flat .iconGit:hover{text-shadow:.5px .5px 10px rgba(0,0,0,.7)}section .section04Contact .container-contact .container-icons .icon-flat p{font-size:16px}footer{overflow:hidden;width:100%;background:#1e2b38;padding:30px}footer .container-footer{max-width:1000px;width:90%;margin:auto;text-align:center}footer p{color:rgba(255,255,255,.6)}@keyframes flecha{0%{transform:translate(0, 0)}50%{transform:translate(0, 15px)}100%{transform:translate(0, 0)}}@keyframes flechaIcono{0%{transform:translate(0, 0)}50%{transform:translate(0, 30px)}100%{transform:translate(0, 0)}}@media(max-width: 991px){header{width:100%}section{width:100%}footer{width:100%}}@media(max-width: 414px){header .container-header{margin-top:8%}header .container-header .logo{display:none}header .container-header nav a{margin-left:20px}section .section01Main{flex-direction:column;margin-top:100px}section .section01Main .fotoPerfil{width:100%}section .section01Main .fotoPerfil img{width:50%}section .section01Main .contenedor-presentacion{width:100%;margin-top:60px}section .section01Main .contenedor-presentacion .contArrow{display:none}section .section02-AboutMe-and-myskills{padding-bottom:0px}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills{margin-top:50px;flex-direction:column;justify-content:space-around}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme{width:100%}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .about-me{margin-bottom:0px}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .container-arrow{display:none}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills{width:100%;margin-top:60px}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill img{width:80%}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill p{font-size:12px}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill img{width:80%}section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill p{font-size:12px}section .section03Projects .container-Projects .projects .muestras{width:100%}section .section03Projects .container-Projects .projects .muestras .enproceso{display:none}section .section03Projects .container-Projects .projects .inProcess{display:none}}/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ccc url(../img/fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+header .container-header {
+  overflow: hidden;
+  max-width: 1000px;
+  width: 90%;
+  margin: 1.5% auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header .container-header .logo img {
+  width: 40%;
+}
+header .container-header nav {
+  text-decoration: none;
+}
+header .container-header nav a {
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 40px;
+  font-weight: bold;
+  color: #bbbbbb;
+}
+header .container-header nav a:hover {
+  color: #ffffff;
+}
+
+section h3, section h4, section p {
+  color: #3C3744;
+}
+section .section01Main {
+  overflow: hidden;
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section .section01Main .fotoPerfil {
+  width: 30%;
+  text-align: center;
+}
+section .section01Main .fotoPerfil img {
+  width: 80%;
+  border-radius: 50%;
+  border: 3px solid rgba(58, 134, 255, 0.6);
+}
+section .section01Main .contenedor-presentacion {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section .section01Main .contenedor-presentacion .saludo {
+  width: 100%;
+  text-align: center;
+  align-self: flex-start;
+}
+section .section01Main .contenedor-presentacion .saludo h3 {
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: lighter;
+}
+section .section01Main .contenedor-presentacion .saludo h4 {
+  font-size: 52px;
+  color: #3A86FF;
+  text-shadow: 1px 1px 20px rgba(58, 134, 255, 0.6);
+}
+section .section01Main .contenedor-presentacion .contArrow {
+  max-width: 50px;
+  max-height: 100px;
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 15px;
+  animation: flecha 2s infinite;
+  border-radius: 50px;
+  border: 2px solid #ffffff;
+  color: white;
+  position: relative;
+  left: 70%;
+}
+section .section01Main .contenedor-presentacion .contArrow .btnArrow {
+  font-size: 35px;
+  transition: 0.5s;
+  color: white;
+  width: 40px;
+  height: 70px;
+  margin-top: 10px;
+  display: inline-block;
+  animation: flechaIcono 2s ease-out infinite;
+}
+section .section01Main .contenedor-presentacion .contArrow .btnArrow:hover {
+  color: #3A86FF;
+}
+section .section02-AboutMe-and-myskills {
+  overflow: hidden;
+  background: url(../img/Texture-So-White-Pattern.png);
+  width: 100%;
+  margin-top: 200px;
+  padding-bottom: 100px;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .about-me {
+  width: 100%;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .about-me h3 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .about-me p {
+  font-size: 20px;
+  line-height: 35px;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .container-arrow {
+  max-width: 50px;
+  max-height: 100px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 190px;
+  animation: flecha 2s infinite;
+  border-radius: 50px;
+  border: 2px solid #3C3744;
+  position: relative;
+  left: 30%;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .container-arrow .btnArrow {
+  font-size: 35px;
+  transition: 0.5s;
+  color: #3C3744;
+  width: 40px;
+  height: 70px;
+  margin-top: 10px;
+  display: inline-block;
+  animation: flechaIcono 2s ease-out infinite;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .container-arrow .btnArrow:hover {
+  color: #3A86FF;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned h3 {
+  font-size: 25px;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill {
+  margin: 5%;
+  width: 20%;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill img {
+  width: 100%;
+  border-radius: 5%;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill p {
+  font-size: 20px;
+  text-align: center;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess h3 {
+  font-size: 25px;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill {
+  margin: 5%;
+  width: 20%;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill img {
+  width: 100%;
+  border-radius: 5%;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill p {
+  font-size: 20px;
+  text-align: center;
+}
+section .section03Projects {
+  overflow: hidden;
+  width: 100%;
+  background: url(../img/Texture-So-White-Pattern.png);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+section .section03Projects .container-Projects {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+}
+section .section03Projects .container-Projects .DescriptionProjects h3 {
+  font-size: 45px;
+}
+section .section03Projects .container-Projects .DescriptionProjects p {
+  font-size: 20px;
+  margin: 40px 0px;
+}
+section .section03Projects .container-Projects .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+section .section03Projects .container-Projects .projects .muestras a {
+  text-decoration: none;
+}
+section .section03Projects .container-Projects .projects .muestras a img {
+  margin: 5%;
+  width: 100%;
+  max-width: 280px;
+  max-height: 200px;
+  border-radius: 2%;
+  box-shadow: 1px 1px 5px #3C3744;
+}
+section .section03Projects .container-Projects .projects .muestras a img:hover {
+  box-shadow: 1px 1px 30px #3C3744;
+}
+section .section03Projects .container-Projects .projects .muestras a p {
+  font-size: 16px;
+  text-align: center;
+}
+section .section03Projects .container-Projects .projects .muestras a .enproceso {
+  margin: 5%;
+  width: 100%;
+  width: 280px;
+  height: 200px;
+  border: 3px dotted #637081;
+  border-radius: 2%;
+  box-shadow: 1px 1px 5px #3C3744;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .section03Projects .container-Projects .projects .muestras a .enproceso p {
+  color: #982649;
+  font-size: 30px;
+}
+section .section03Projects .container-Projects .projects .muestras a .enproceso:hover {
+  box-shadow: 1px 1px 30px #3C3744;
+}
+section .section04Contact {
+  overflow: hidden;
+  width: 100%;
+  background: url(../img/Texture-So-White-Pattern.png);
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+section .section04Contact .container-contact {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0.5% auto;
+}
+section .section04Contact .container-contact .contact-me h3 {
+  font-size: 45px;
+}
+section .section04Contact .container-contact .contact-me h4 {
+  font-size: 20px;
+  margin: 40px 20px;
+}
+section .section04Contact .container-contact .container-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+section .section04Contact .container-contact .container-icons .icon-flat {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+section .section04Contact .container-contact .container-icons .icon-flat a {
+  font-size: 80px;
+}
+section .section04Contact .container-contact .container-icons .icon-flat .iconLinkedin {
+  color: #0e76a8;
+}
+section .section04Contact .container-contact .container-icons .icon-flat .iconLinkedin:hover {
+  text-shadow: 0.5px 0.5px 10px rgba(14, 118, 168, 0.5);
+}
+section .section04Contact .container-contact .container-icons .icon-flat .iconGit {
+  color: #000;
+}
+section .section04Contact .container-contact .container-icons .icon-flat .iconGit:hover {
+  text-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.7);
+}
+section .section04Contact .container-contact .container-icons .icon-flat p {
+  font-size: 16px;
+}
+
+footer {
+  overflow: hidden;
+  width: 100%;
+  background: #1e2b38;
+  padding: 30px;
+}
+footer .container-footer {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@keyframes flecha {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes flechaIcono {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 30px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@media (max-width: 991px) {
+  header {
+    width: 100%;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+@media (max-width: 414px) {
+  header {
+    display: none;
+  }
+
+  section .section01Main {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  section .section01Main .fotoPerfil {
+    width: 100%;
+  }
+  section .section01Main .fotoPerfil img {
+    width: 50%;
+  }
+  section .section01Main .contenedor-presentacion {
+    width: 100%;
+    margin-top: 60px;
+  }
+  section .section01Main .contenedor-presentacion .saludo h3 {
+    font-size: 35px;
+  }
+  section .section01Main .contenedor-presentacion .saludo h4 {
+    font-size: 42px;
+  }
+  section .section01Main .contenedor-presentacion .contArrow {
+    display: none;
+  }
+  section .section02-AboutMe-and-myskills {
+    padding-bottom: 0px;
+  }
+  section .section02-AboutMe-and-myskills .container-aboutme-and-myskills {
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme {
+    width: 100%;
+  }
+  section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .about-me {
+    margin-bottom: 0px;
+  }
+  section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .container-arrow {
+    display: none;
+  }
+  section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills {
+    width: 100%;
+    margin-top: 60px;
+  }
+  section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill img {
+    width: 80%;
+  }
+  section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill p {
+    font-size: 12px;
+  }
+  section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill img {
+    width: 80%;
+  }
+  section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill p {
+    font-size: 12px;
+  }
+  section .section03Projects .container-Projects .projects .muestras {
+    width: 100%;
+  }
+  section .section03Projects .container-Projects .projects .muestras .enproceso {
+    display: none;
+  }
+  section .section03Projects .container-Projects .projects .inProcess {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
