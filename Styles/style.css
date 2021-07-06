@@ -146,6 +146,23 @@ section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .contain
   font-size: 20px;
   line-height: 35px;
 }
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .descargar-cv {
+  background: #3A86FF;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 14px;
+  margin-top: 80px;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .descargar-cv:hover {
+  background: rgba(58, 134, 255, 0.9);
+  box-shadow: 1px 1px 3px #3A86FF;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .descargar-cv a {
+  color: #fff;
+  text-decoration: none;
+}
 section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .container-arrow {
   max-width: 50px;
   max-height: 100px;
