@@ -154,10 +154,12 @@ section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .contain
   border-radius: 3px;
   padding: 14px;
   margin-top: 80px;
+  transition: 0.2s ease-in-out;
 }
 section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .descargar-cv:hover {
   background: rgba(58, 134, 255, 0.9);
-  box-shadow: 1px 1px 3px #3A86FF;
+  box-shadow: 2px 2px 2px #3A86FF;
+  transition: 0.2s ease-in-out;
 }
 section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-aboutme .descargar-cv a {
   color: #fff;
@@ -210,6 +212,10 @@ section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .contain
   width: 100%;
   border-radius: 5%;
 }
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill img:hover {
+  box-shadow: 1px 1px 30px #3C3744;
+  transition: 0.2s ease-in;
+}
 section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill p {
   font-size: 20px;
   text-align: center;
@@ -229,6 +235,10 @@ section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .contain
 section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill img {
   width: 100%;
   border-radius: 5%;
+}
+section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill img:hover {
+  box-shadow: 1px 1px 30px #3C3744;
+  transition: 0.2s ease-in;
 }
 section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill p {
   font-size: 20px;
@@ -272,6 +282,7 @@ section .section03Projects .container-Projects .projects .muestras a img {
 }
 section .section03Projects .container-Projects .projects .muestras a img:hover {
   box-shadow: 1px 1px 30px #3C3744;
+  transition: 0.2s ease-in-out;
 }
 section .section03Projects .container-Projects .projects .muestras a p {
   font-size: 16px;
@@ -336,12 +347,14 @@ section .section04Contact .container-contact .container-icons .icon-flat .iconLi
 }
 section .section04Contact .container-contact .container-icons .icon-flat .iconLinkedin:hover {
   text-shadow: 0.5px 0.5px 10px rgba(14, 118, 168, 0.5);
+  transition: 0.2s ease-in-out;
 }
 section .section04Contact .container-contact .container-icons .icon-flat .iconGit {
   color: #000;
 }
 section .section04Contact .container-contact .container-icons .icon-flat .iconGit:hover {
   text-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.7);
+  transition: 0.2s ease-in-out;
 }
 section .section04Contact .container-contact .container-icons .icon-flat p {
   font-size: 16px;
