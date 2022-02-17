@@ -211,6 +211,7 @@ section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .contain
 section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill img {
   width: 100%;
   border-radius: 5%;
+  box-shadow: 1px 1px 10px #3C3744;
 }
 section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-learned .contenedorIconos .iconoSkill img:hover {
   box-shadow: 1px 1px 30px #3C3744;
@@ -235,6 +236,7 @@ section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .contain
 section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill img {
   width: 100%;
   border-radius: 5%;
+  box-shadow: 1px 1px 10px #3C3744;
 }
 section .section02-AboutMe-and-myskills .container-aboutme-and-myskills .container-myskills .skills-inProcess .contenedorIconos .iconoSkill img:hover {
   box-shadow: 1px 1px 30px #3C3744;
